@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Celulares</string>
+    <string name="btnLimpiar">Clear</string>
+    <string name="capacidad">Capacity</string>
+    <string name="color">Color</string>
+    <string name="crear">Add Cell</string>
+    <string name="guardar">Save</string>
+    <string name="listar">List</string>
+    <string name="marca">Mark</string>
+    <string name="precio">Price</string>
+    <string name="negro">Black</string>
+    <string name="blanco">White</string>
+    <string name="azul">Blue</string>
+    <string name="rosado">Rosado</string>
+    <string name="dorado">Gold</string>
+    <string name="verde">Green</string>
+    <string name="error_precio">Write a price</string>
+</resources>

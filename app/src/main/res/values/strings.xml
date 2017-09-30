@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Celulares</string>
+    <string name="no" translatable="false">No.</string>
+    <string name="marca">Marca</string>
+    <string name="color">Color</string>
+    <string name="precio">Precio</string>
+    <string name="capacidad">Capacidad</string>
+    <string name="os" translatable="false">OS</string>
+    <string name="guardar">Guardar</string>
+    <string name="btnLimpiar">Limpiar</string>
+    <string name="crear">Agregar Celular</string>
+    <string name="listar">Listar celulares</string>
+    <string name="celularesApple">Número de celulares Apple color negro</string>
+    <string name="promedio_nokia">Promedio de precios celulares Nokia</string>
+    <string-array name="opciones">
+        <item>@string/crear</item>
+        <item>@string/listar</item>
+        <item>@string/celularesApple</item>
+        <item>@string/promedio_nokia</item>
+    </string-array>
+    <string name="htc" translatable="false">HTC</string>
+    <string name="lg" translatable="false">LG</string>
+    <string name="iphone" translatable="false">Apple</string>
+    <string name="nokia" translatable="false">Nokia</string>
+    <string name="huawei" translatable="false">Huawei</string>
+    <string name="samsung" translatable="false">Samsung</string>
+    <string name="motorola" translatable="false">Motorola</string>
+    <string-array name="marcas">
+        <item>@string/htc</item>
+        <item>@string/lg</item>
+        <item>@string/iphone</item>
+        <item>@string/nokia</item>
+        <item>@string/huawei</item>
+        <item>@string/samsung</item>
+        <item>@string/motorola</item>
+    </string-array>
+    <string name="negro">Negro</string>
+    <string name="blanco">Blanco</string>
+    <string name="azul">Azul</string>
+    <string name="rosado">Rosado</string>
+    <string name="dorado">Dorado</string>
+    <string name="verde">Verde</string>
+
+    <string-array name="colores">
+        <item>@string/negro</item>
+        <item>@string/blanco</item>
+        <item>@string/azul</item>
+        <item>@string/rosado</item>
+        <item>@string/dorado</item>
+        <item>@string/verde</item>
+    </string-array>
+
+    <string name="android" translatable="false">Android</string>
+    <string name="ios" translatable="false">iOS</string>
+    <string name="cyanogenmod" translatable="false">Cyanogenmod</string>
+
+    <string-array name="sisop">
+        <item>@string/android</item>
+        <item>@string/ios</item>
+        <item>@string/cyanogenmod</item>
+    </string-array>
+
+    <string name="ungb">1Gb</string>
+    <string name="unocincogb">1.5Gb</string>
+    <string name="dosgb">2Gb</string>
+    <string name="tresgb">3Gb</string>
+    <string name="cuatrogb">4Gb</string>
+    <string name="seisgb">6Gb</string>
+    <string name="ochogb">8Gb</string>
+
+
+    <string-array name="capacidades">
+        <item>@string/ungb</item>
+        <item>@string/unocincogb</item>
+        <item>@string/dosgb</item>
+        <item>@string/tresgb</item>
+        <item>@string/cuatrogb</item>
+        <item>@string/seisgb</item>
+        <item>@string/ochogb</item>
+    </string-array>
+
+    <string name="error_precio">Digite un precio</string>
+    <string name="agregado">Agregado</string>
+</resources>
