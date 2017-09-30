@@ -12,6 +12,7 @@
     <string name="listar">Listar celulares</string>
     <string name="celularesApple">Número de celulares Apple color negro</string>
     <string name="promedio_nokia">Promedio de precios celulares Nokia</string>
+    <string name="celulares_samsung">Celulares Samsung</string>
     <string-array name="opciones">
         <item>@string/crear</item>
         <item>@string/listar</item>

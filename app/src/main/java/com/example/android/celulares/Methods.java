@@ -36,5 +36,4 @@ public class Methods {
         }
         return promedio;
     }
-
 }

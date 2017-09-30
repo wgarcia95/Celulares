@@ -44,6 +44,13 @@ public class Principal extends AppCompatActivity {
                         celulares_apple(view);
                     case 3:
                          precios_nokia(view);
+                    case 4:
+                        Bundle b = new Bundle();
+                        b.putBoolean("flag", true);
+                        i = new Intent(Principal.this, Listado.class);
+                        i.putExtra("flag", b);
+                        startActivity(i);
+                        break;
                 }
             }
         });

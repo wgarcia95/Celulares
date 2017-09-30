@@ -1,5 +1,6 @@
 package com.example.android.celulares;
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,13 +16,20 @@ public class Listado extends AppCompatActivity {
     private ArrayList<Celular> celulares;
     private String marcas[], colores[], sisop[], capacidades[];
     private Resources res;
+    private Boolean flag;
+    private Bundle b = getIntent().getExtras();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listado);
         tabla = (TableLayout)findViewById(R.id.tblCelulares);
-        celulares = Datos.getCelulares();
+        flag = b.getBoolean("flag");
+        if (flag == true) {
+            celulares = Datos.get_samsung();
+        }else {
+            celulares = Datos.getCelulares();
+        }
         res = this.getResources();
         marcas = res.getStringArray(R.array.marcas);
         colores = res.getStringArray(R.array.colores);
