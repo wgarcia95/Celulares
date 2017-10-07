@@ -16,4 +16,8 @@
     <string name="dorado">Gold</string>
     <string name="verde">Green</string>
     <string name="error_precio">Write a price</string>
+    <string name="celularesApple">Black Apple devices</string>
+    <string name="celulares_samsung">Samsung devices</string>
+    <string name="agregado">Added</string>
+    <string name="promedio_nokia">Nokia Devices Average</string>
 </resources>

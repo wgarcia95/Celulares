@@ -42,13 +42,12 @@ public class Principal extends AppCompatActivity {
                         break;
                     case 2:
                         celulares_apple(view);
+                        break;
                     case 3:
                          precios_nokia(view);
+                        break;
                     case 4:
-                        Bundle b = new Bundle();
-                        b.putBoolean("flag", true);
-                        i = new Intent(Principal.this, Listado.class);
-                        i.putExtra("flag", b);
+                        i = new Intent(Principal.this, Listado_samsung.class);
                         startActivity(i);
                         break;
                 }

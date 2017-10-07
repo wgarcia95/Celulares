@@ -10,14 +10,15 @@
     <string name="btnLimpiar">Limpiar</string>
     <string name="crear">Agregar Celular</string>
     <string name="listar">Listar celulares</string>
-    <string name="celularesApple">Número de celulares Apple color negro</string>
+    <string name="celularesApple">Dispositivos Apple color negro</string>
     <string name="promedio_nokia">Promedio de precios celulares Nokia</string>
-    <string name="celulares_samsung">Celulares Samsung</string>
+    <string name="celulares_samsung">Dispositivos Samsung</string>
     <string-array name="opciones">
         <item>@string/crear</item>
         <item>@string/listar</item>
         <item>@string/celularesApple</item>
         <item>@string/promedio_nokia</item>
+        <item>@string/celulares_samsung</item>
     </string-array>
     <string name="htc" translatable="false">HTC</string>
     <string name="lg" translatable="false">LG</string>
@@ -61,13 +62,13 @@
         <item>@string/cyanogenmod</item>
     </string-array>
 
-    <string name="ungb">1Gb</string>
-    <string name="unocincogb">1.5Gb</string>
-    <string name="dosgb">2Gb</string>
-    <string name="tresgb">3Gb</string>
+    <string name="ungb" translatable="false">1Gb</string>
+    <string name="unocincogb" translatable="false">1.5Gb</string>
+    <string name="dosgb" translatable="false">2Gb</string>
+    <string name="tresgb" translatable="false">3Gb</string>
     <string name="cuatrogb">4Gb</string>
-    <string name="seisgb">6Gb</string>
-    <string name="ochogb">8Gb</string>
+    <string name="seisgb" translatable="false">6Gb</string>
+    <string name="ochogb" translatable="false">8Gb</string>
 
 
     <string-array name="capacidades">

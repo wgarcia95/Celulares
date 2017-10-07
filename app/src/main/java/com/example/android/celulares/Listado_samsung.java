@@ -2,16 +2,15 @@ package com.example.android.celulares;
 
 import android.content.Intent;
 import android.content.res.Resources;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.ArrayAdapter;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class Listado extends AppCompatActivity {
+public class Listado_samsung extends AppCompatActivity {
     private TableLayout tabla;
     private ArrayList<Celular> celulares;
     private String marcas[], colores[], sisop[], capacidades[];
@@ -22,7 +21,7 @@ public class Listado extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listado);
         tabla = (TableLayout)findViewById(R.id.tblCelulares);
-        celulares = Datos.getCelulares();
+        celulares = Datos.get_samsung();
         res = this.getResources();
         marcas = res.getStringArray(R.array.marcas);
         colores = res.getStringArray(R.array.colores);
