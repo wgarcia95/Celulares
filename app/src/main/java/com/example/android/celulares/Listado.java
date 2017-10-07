@@ -16,13 +16,19 @@ public class Listado extends AppCompatActivity {
     private ArrayList<Celular> celulares;
     private String marcas[], colores[], sisop[], capacidades[];
     private Resources res;
+    private String flag;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listado);
         tabla = (TableLayout)findViewById(R.id.tblCelulares);
-        celulares = Datos.getCelulares();
+        try {
+            flag = getIntent().getExtras().getString("flag");
+            celulares = Datos.get_samsung();
+        }catch (Exception e){
+            celulares = Datos.getCelulares();
+        }
         res = this.getResources();
         marcas = res.getStringArray(R.array.marcas);
         colores = res.getStringArray(R.array.colores);

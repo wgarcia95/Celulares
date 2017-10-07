@@ -47,7 +47,10 @@ public class Principal extends AppCompatActivity {
                          precios_nokia(view);
                         break;
                     case 4:
-                        i = new Intent(Principal.this, Listado_samsung.class);
+                        i = new Intent(Principal.this, Listado.class);
+                        Bundle extras = new Bundle();
+                        extras.putString("flag", "true");
+                        i.putExtras(extras);
                         startActivity(i);
                         break;
                 }
